@@ -1,0 +1,27 @@
+body {
+    background-color: blue;   
+    Text-align: center;
+    font-size: 15px;
+}
+div.col {
+    margin: 20px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    background-color: #e1e2e3;
+}
+div.row {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    text-align: center;
+}
+
+/* 
+  Quick Lookup Guide
+- Change font color     => color: red;
+- Change font size      => font-size: 15px;
+- Text align            => text-align: center
+- Background color      => background-color: blue
+- Select table header row as table>thead>tr { your properties go here }
+*/
