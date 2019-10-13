@@ -1,0 +1,41 @@
+header {
+    padding: 10px;
+    background: #333333;
+    color: white;
+}
+
+header p {
+    margin: 5px;
+}
+
+header h1 {
+    margin: 10px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.border {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.plate {
+    margin: 12px;
+    border: 1px solid black;
+    padding: 12px;
+}
