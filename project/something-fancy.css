@@ -5,9 +5,11 @@ body {
 p {
     line-height: 2;
 }
-.container {
+.container-fluid {
+    width:100%;
     position: relative;
 }
+
 .bottom-left {
     position: absolute;
     bottom: 32px;
@@ -23,7 +25,11 @@ p {
     color: white;
 }
 
-img { 
+.header1 { 
+    width: 100%;
+    height: auto;
+}
+.cover {
     width: 100%;
     height: auto;
 }
@@ -49,4 +55,125 @@ li a {
   
 li a:hover {
     background-color: lightblue;
+}
+footer {
+    width:100%;
+}
+
+/*rods*/
+
+aside {
+    width: 20%;
+    float: right;
+    color: blue;
+}
+
+.rods {
+    text-align:center;
+    width:75%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #666;
+    background:lightgrey;
+}
+
+.spinning-rods1 {
+    width:60%;
+}
+.casting-rods1 {
+    width:60%;
+}
+.fly-fishing {
+    width:60%;
+}
+
+/*reels*/
+
+.reels {
+    display: flex;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background-color: lightgray;
+}
+table tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+.reel {
+    text-align:center;
+    float:left;
+    width:80%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #666;
+}
+.spinning-reels {
+    width:80%;
+}
+.casting-reels {
+    width:80%;
+}
+.fly-fishing-reels {
+    width:80%;
+}
+
+/*lines*/
+
+.lines {
+    display:flex;
+}
+.line {
+    flex:1;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    border: 1px solid #666;
+    text-align:center;
+    background:lightblue;
+}
+.mono-line {
+    width:50%;
+}
+.braided-fishing-line-1 {
+    width:50%;
+}
+.fluoro {
+    width:50%;
+}
+
+/*more*/
+
+.hook-size {
+    width:50%;
+}
+.fishing-lures {
+    width:50%;
+}
+.bait-1 {
+    width:50%;
+}
+.col {
+    display:flex;
+}
+.row {
+    background:lightgoldenrodyellow;
+    text-align:center;
+    flex:1;
+    width:80%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #666;
 }
