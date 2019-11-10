@@ -19,6 +19,7 @@ p {
 }
 .top-left {
     position: absolute;
+    padding: 6%;
     top: 8px;
     left: 32px;
     font-size: 24px;
@@ -56,12 +57,65 @@ li a {
 li a:hover {
     background-color: lightblue;
 }
+
+.home {
+    font-size: 18px;
+}
+.home-col {
+    display: flex;
+}
+.home-row {
+    display: flex; 
+}
+.home-row .row-img {
+    width: 30%;
+}
+
+.home-row .home-text {
+    width: 50%;
+    padding: 5%;
+    border: 3px solid lightcyan;
+    border-left: 0; 
+}
+.home-row .home-text h4 {
+    margin-bottom: 6px;
+    font-size: 32px;
+    line-height: 36px; 
+}
+
+.home-row .home-text p {
+    color: #777;
+    line-height: 24px; 
+}
+.home-row .row-img img {
+    width: 80%;
+    padding: 15px;
+}
+.home-row .row-video iframe {
+    padding: 15px;
+    width: auto;
+    height: 100%;
+}
 footer {
     width:100%;
+    clear: both;
 }
 
 /*rods*/
-
+.intro-rods {
+    display:flex;
+}
+.intro-rods iframe {
+    padding: 10px;
+    width: 70%;
+    height: 500px;
+}
+.intro-rods .rods-text {
+    margin: 5%;
+    padding: 2%;
+    border: 3px solid lightcyan;
+    border-left: 0; 
+}
 aside {
     width: 20%;
     float: right;
@@ -87,28 +141,11 @@ aside {
     width:60%;
 }
 
+
 /*reels*/
 
 .reels {
     display: flex;
-}
-table {
-    width:100%;
-}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    margin: 10px;
-    padding: 20px;
-    text-align: left;
-}
-table tr:nth-child(even) {
-    background-color: lightgray;
-}
-table tr:nth-child(odd) {
-    background-color: lightblue;
 }
 
 .reel {
@@ -128,7 +165,21 @@ table tr:nth-child(odd) {
 .fly-fishing-reels {
     width:80%;
 }
-
+.select-reels {
+    display:flex;
+    width:80%;
+}
+.select-reels iframe {
+    padding: 10px;
+    width: 50%;
+    height: 400px;
+}
+.select-reels .reels-text {
+    margin: 1%;
+    padding: 5%;
+    border: 3px solid springgreen;
+    border-right: 0; 
+}
 /*lines*/
 
 .lines {
@@ -153,27 +204,66 @@ table tr:nth-child(odd) {
 .fluoro {
     width:50%;
 }
-
-/*more*/
-
-.hook-size {
-    width:50%;
-}
-.fishing-lures {
-    width:50%;
-}
-.bait-1 {
-    width:50%;
-}
-.col {
+.select-lines {
     display:flex;
 }
-.row {
-    background:lightgoldenrodyellow;
-    text-align:center;
-    flex:1;
-    width:80%;
-    margin: 10px;
+.select-lines iframe {
     padding: 10px;
-    border: 1px solid #666;
+    width: 50%;
+    height: 600px;
+}
+.select-lines .lines-text {
+    margin: 5%;
+    padding: 2%;
+    border: 3px solid fuchsia;
+    border-left: 0; 
+}
+
+/*more*/
+.more {    
+    text-align:center;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.more .hooks {
+    width:45%;
+    margin: 1%;
+    padding: 1%;
+    border: 3px solid lightcoral;
+
+}
+.more .lures {
+    width:50%;
+    margin: 1%;
+    padding: 1%;
+    border: 3px solid lightseagreen;
+
+}
+.more .baits {
+    width:50%;
+    margin: 1%;
+    padding: 1%;
+    border: 3px solid lightslategrey;
+
+}
+.more .sinkers {
+    width:45%;
+    margin: 1%;
+    padding: 1%;
+    border: 3px solid plum;
+
+}
+
+.hook-size {
+    width:60%;
+}
+.fishing-lures {
+    width:60%;
+}
+.bait-1 {
+    width:60%;
+}
+.sinker {
+    width:60%;
 }
