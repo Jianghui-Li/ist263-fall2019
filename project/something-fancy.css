@@ -5,25 +5,29 @@ body {
 p {
     line-height: 2;
 }
-.container-fluid {
-    width:100%;
-    position: relative;
+h1 {
+    font-size: 48px;
+    margin-left: 55%;
+}
+.jumbotron {
+    background-image: url(./images/header1.jpg); 
+    background-size: cover;
+    color: white;
+
+}
+.jumbotron-2 {
+    background-image: url(./images/water.jpg); 
+    background-size: cover;
+    color: white;
+    padding: 2%;
+    font-size: 18px;
 }
 
-.bottom-left {
-    position: absolute;
-    bottom: 32px;
-    left: 32px;
-    font-size: 64px;
-    color: white;
-}
-.top-left {
-    position: absolute;
-    padding: 6%;
-    top: 8px;
-    left: 32px;
-    font-size: 24px;
-    color: white;
+article.banner-text {
+    margin-left: 40%;
+    margin-top: 35%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
 }
 
 .header1 { 
@@ -221,7 +225,6 @@ aside {
 
 /*more*/
 .more {    
-    text-align:center;
     display:flex;
     flex-wrap: wrap;
 }
@@ -257,13 +260,21 @@ aside {
 
 .hook-size {
     width:60%;
+    float:left;
+    padding:2%;
 }
 .fishing-lures {
     width:60%;
+    float:left;
+    padding:2%;
 }
 .bait-1 {
     width:60%;
+    float:left;
+    padding:2%;
 }
 .sinker {
     width:60%;
+    float:left;
+    padding:2%;
 }
