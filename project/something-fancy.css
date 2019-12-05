@@ -1,9 +1,8 @@
 body {
     background: linear-gradient(200deg, rgb(238, 255, 218), rgb(247, 213, 255) 70.71%);
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
 }
 p {
+    font-family: 'Verdana', sans-serif;
     line-height: 2;
     font-size: 20px;
 }
@@ -11,15 +10,18 @@ h1 {
     font-size: 54px;
     font-family: Impact, sans-serif;
     color: white;
-    -webkit-text-stroke: 0.01em #0000aa;
+    -webkit-text-stroke: 0.02em darkblue;
 }
 h2 {
+    font-family: "Great Vibes", cursive;
     font-size: 42px;
 }
 h3 {
+    font-family: "Great Vibes", cursive;
     font-size: 36px;
 }
 h4 {
+    font-family: "Great Vibes", cursive;
     font-size: 30px;
 }
 .jumbotron {
@@ -51,19 +53,21 @@ article.banner-text {
     height: auto;
 }
 
-ul {
+nav ul {
+    font-family: "Great Vibes", cursive;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: linear-gradient(200deg, rgb(238, 255, 218), rgb(247, 213, 255) 70.71%);
     font-size: 20px;
+    font-weight: 600;
 }
-li {
+nav li {
     float: left;
 }
   
-li a {
+nav li a {
     display: block;
     color: black;
     text-align: center;
@@ -71,7 +75,7 @@ li a {
     text-decoration: none;
 }
   
-li a:hover {
+nav li a:hover {
     background-color: lightyellow;
 }
 
@@ -82,7 +86,7 @@ li a:hover {
     padding: 1%;
 }
 .selfie {
-    border: 3px groove lightblue;
+    border: 3px groove gray;
     border-radius: 12px;
     margin: 10px;
     flex: 1;
@@ -90,20 +94,20 @@ li a:hover {
 .selfie .selfie-name {
     padding: 2%;
 }
+.me {
+    width:100%;
+    padding: 15px;
+}
 .video-intro {
-    border: 3px groove lightblue;
+    border: 3px groove gray;
     margin: 10px;
     border-radius: 12px;
     flex: 1;
 }
 
-.me {
-    width:100%;
-    padding: 15px;
-}
 iframe {
     width: 100%;
-    height: 70%;
+    height: 720px;
     padding: 2%;
 }
 footer {
@@ -122,7 +126,7 @@ main {
 }
 .intro-rods iframe {
     padding: 10px;
-    width: 100%;
+    width: 70%;
     height: 400px;
 }
 .intro-rods .rods-text {
@@ -137,6 +141,13 @@ aside {
     flex:1;
     color: indianred;
     padding: 10px;
+}
+aside ul {
+    font-family: 'Verdana', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: linear-gradient(200deg, rgb(238, 255, 218), rgb(247, 213, 255) 70.71%);
 }
 
 .rods {
@@ -219,7 +230,7 @@ aside {
 }
 .select-reels iframe {
     padding: 10px;
-    width: 50%;
+    width: 70%;
     height: 400px;
 }
 .select-reels .reels-text {
@@ -260,7 +271,7 @@ aside {
 .select-lines iframe {
     padding: 10px;
     width: 50%;
-    height: 600px;
+    height: 500px;
 }
 .select-lines .lines-text {
     margin: 1%;
@@ -320,7 +331,7 @@ aside {
 }
 
 .hook-size {
-    width:60%;
+    width:70%;
     float:left;
     padding:2%;
 }
